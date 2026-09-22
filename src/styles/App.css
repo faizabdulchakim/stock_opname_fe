@@ -906,3 +906,17 @@
 .banner-staff p {
   color: #065f46;
 }
+/* Table Form Inputs */
+.form-input-table {
+  padding: 6px 10px !important;
+  font-size: 0.85rem !important;
+  border-radius: var(--radius-sm) !important;
+  background: #ffffff !important;
+  border: 1px solid var(--bg-input-border) !important;
+}
+
+.form-input-table:focus {
+  background: var(--bg-input-focus) !important;
+  border-color: #059669 !important;
+  box-shadow: 0 0 0 2px rgba(5, 150, 105, 0.15) !important;
+}
